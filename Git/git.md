@@ -1,6 +1,8 @@
+https://github.com/zxjajin/git-demo.git
+
+#### SSH：git@github.com:zxjajin/git-demo.git
+
 ### Git常用命令
-
-
 
 |                  命令名称                  |                           作用                           |
 | :----------------------------------------: | :------------------------------------------------------: |
@@ -40,3 +42,14 @@
 
 #### pp 粘贴到当前行
 
+SSH免密登录具体操作如下： --进入当前用户的家目录 Layne@LAPTOP-Layne MINGW64 /d/Git-Space/SH0720 (master) $ cd --删除.ssh 目录
+
+家目录打开命令行输入；ssh-keygen -t rsa -C 邮箱名字
+
+![image-20230103144033130](C:\Users\阿金\AppData\Roaming\Typora\typora-user-images\image-20230103144033130.png)
+
+这个是由于Git默认开启了SSL验证，关闭即可；
+
+解决方法执行
+
+git config --global http.sslVerify false
