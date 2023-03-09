@@ -8,7 +8,7 @@ https://github.com/zxjajin/git-demo.git
 | :----------------------------------------: | :------------------------------------------------------: |
 |    git config --global user.name 用户名    |                       设置用户签名                       |
 |    git config --global user.email 邮箱     |                       设置用户签名                       |
-|              git ini（重点）               |                       初始化本地库                       |
+|              git init（重点）              |                       初始化本地库                       |
 |             git status（重点）             |                      查看本地库状态                      |
 |           git add 文件名（重点）           |                       添加到暂存区                       |
 |           git rm --cached 文件名           |                      删除暂存区文件                      |
@@ -19,12 +19,15 @@ https://github.com/zxjajin/git-demo.git
 |             git branch 分支名              |                         创建分支                         |
 |               git branch -v                |                         查看分支                         |
 |            git checkout 分支名             |                         切换分支                         |
+|       git branch -m oldName newName        |                       修改分支名称                       |
+|            Git branch -d 分支名            |                         删除分支                         |
 |          git merge 分支名（重点）          |               把指定的分支合并到当前分支上               |
 |               git remote -v                |                 查看当前所有远程地址别名                 |
 |        git remote add 别名 远程地址        |                          起别名                          |
 |         git push 别名 分支（重点）         |              推送本地分支上的内容到远程仓库              |
 |         git clone 远程地址（重点）         |                将远程仓库的内容克隆到本地                |
 | git pull 远程库地址别名 远程分支名（重点） | 将远程仓库对应分支最新内容拉下来后与当前本地分支直接合并 |
+|                                            |                                                          |
 
 ### Liunx命令
 
